@@ -45,8 +45,15 @@ This occupancy percentage is then visualized as a real-time bar graph on the SSD
 | VCC | 3V3/5V | Power |
 | GND | GND | Ground |
 
+## BUTTON
+
+| Pico Pin (GPIO) | Description | 
+| :--- | :--- | :--- |
+| 14 | Button 1 (Increment) |
+| 15 | Button 2 (Select) |
+
 ## Usage
 
 1.  Ensure your Raspberry Pi Pico is flashed with MicroPython.
 2.  Upload all required files (`main.py`, `icons.py`, `ssd1306.py`, `nrf24l01.py`) to the root directory of the Pico.
-3.  Power the device. It will display an introductory screen and then immediately begin scanning. The OLED display will show a live graph of channel occupancy from channel 0 to 125.
+3.  Power the device. It will display an introductory screen and then immediately begin scanning. The OLED display will show channel selection menu and (if all channels selected as 'xxx') a live graph of channel occupancy from channel 0 to 125.
