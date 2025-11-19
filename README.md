@@ -48,7 +48,7 @@ This occupancy percentage is then visualized as a real-time bar graph on the SSD
 ## BUTTON
 
 | Pico Pin (GPIO) | Description | 
-| :--- | :--- | :--- |
+| :--- | :--- |
 | 14 | Button 1 (Increment) |
 | 15 | Button 2 (Select) |
 
